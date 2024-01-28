@@ -1,0 +1,20 @@
+{
+  "go.gopath": "C:\\Users\\Rogerio\\Documents\\Projetos\\_go",
+  "go.goroot": "C:\\Program Files\\Go",
+  "python.pythonPath": "C:\\Python39\\python.exe",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/*.pyc": true
+  },
+  "git.ignoreLimitWarning": true
+}

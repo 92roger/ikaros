@@ -1,0 +1,13 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+  bin = "./tmp/main.exe"  # Adicionando a extensão .exe
+  cmd = "go build -o ./tmp/main.exe ./backend/api"
+  delay = 1000
+  exclude_dir = ["assets", "tmp", "vendor", "testdata"]
+  include_ext = ["go", "tpl", "tmpl", "html"]
+  log = "build-errors.log"
+
+[log]
+  time = false
